@@ -1,0 +1,48 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+
+.Menu {
+	background-color: var(--white);
+	width: 100px;
+	height: auto;
+	border: 1px solid var(--very-light-pink);
+	border-radius: 6px;
+	padding: 20px 20px 0 20px;
+	position:absolute;
+	top: 60px;
+	right: 50px;
+}
+.Menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.Menu ul li {
+	text-align: end;
+}
+.Menu ul li:nth-child(1),
+.Menu ul li:nth-child(2) {
+	font-weight: bold;
+}
+.Menu ul li:last-child {
+	padding-top: 20px;
+	border-top: 1px solid var(--very-light-pink);
+}
+.Menu ul li:last-child a {
+	color: var(--hospital-green);
+	font-size: var(--sm);
+}
+.Menu ul li a {
+	color: var(--back);
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: inline-block;
+}

@@ -1,0 +1,34 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+
+.Order {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	gap: 16px;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.Order p:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+}
+.Order p span:nth-child(1) {
+	font-size: var(--md);
+	font-weight: bold;
+}
+.Order p span:nth-child(2) {
+	font-size: var(--sm);
+	color: var(--very-light-pink);
+}
+.Order p:nth-child(2) {
+	text-align: end;
+	font-weight: bold;
+}

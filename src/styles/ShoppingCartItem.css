@@ -1,0 +1,34 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+
+.ShoppingCartItem {
+	display: grid;
+	grid-template-columns: auto 1fr auto auto;
+	gap: 16px;
+	margin-bottom: 24px;
+	align-items: center;
+}
+.ShoppingCartItem figure {
+	margin: 0;
+}
+.ShoppingCartItem figure img {
+	width: 70px;
+	height: 70px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.ShoppingCartItem p:nth-child(2) {
+	color: var(--very-light-pink);
+}
+.ShoppingCartItem p:nth-child(3) {
+	font-size: var(--md);
+	font-weight: bold;
+}
