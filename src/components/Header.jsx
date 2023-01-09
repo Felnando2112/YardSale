@@ -6,8 +6,11 @@ import logo from '/home/fernando/Desktop/React/my-react-app/src/assets/logos/log
 import AppContext from '/home/fernando/Desktop/React/my-react-app/src/context/AppContext.js';
 import shoppingCart from '/home/fernando/Desktop/React/my-react-app/src/assets/icons/icon_shopping_cart.svg';
 import MyOrder from '/home/fernando/Desktop/React/my-react-app/src/containers/MyOrder.jsx';
+import { useUserContext, useUserToggle } from '../context/userProvider';
 
 const Header = () => {
+	const user = useUserContext();
+	const cambiaLogin = useUserToggle();
 	const [Toggle, setToggle] = useState(false);
 	const [toggleOrders, setToggleOrders] = useState(false);
 	const {state} = useContext(AppContext);
@@ -26,25 +29,39 @@ const Header = () => {
 						<a href="/">All</a>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/Clothes">Clothes</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/Electronics">Electronics</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
+						<a href="/Furnitures">Furnitures</a>
 					</li>
 					<li>
-						<a href="/">Toys</a>
+						<a href="/Toys">Toys</a>
 					</li>
 					<li>
-						<a href="/">Others</a>
+						<a href="/others">Others</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email" onClick={handleToggle}>platzi@example.com</li>
+					{ user ? 
+					<>
+					<li className="">
+						<a href="/account" className="navbar-signin-button">{user.email}</a>
+					</li>
+					</>
+					: <>
+					<li className="navbar-signin" onClick={cambiaLogin}>
+						<button className="navbar-signin-button">Sign In</button>
+					</li>
+					<li className="navbar-signup" onClick={handleToggle}>
+						<a href="/signup" className="navbar-signup-button">Sign Up</a>
+					</li>
+					  </>
+}
 					<li className="navbar-shopping-cart" onClick={() => setToggleOrders(!toggleOrders)}>
 						<img src={shoppingCart} alt="shopping cart" />
 						{state.cart.length > 0 ? <div>{state.cart.length}</div> : null}

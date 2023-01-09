@@ -10,19 +10,31 @@ import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
 import Checkout from '/home/fernando/Desktop/React/my-react-app/src/pages/Checkout.jsx';
 import Orders from '../pages/Orders';
+import { UserProvider } from '../context/userProvider';
 import AppContext from '../context/AppContext';
 import useInitialState from '/home/fernando/Desktop/React/my-react-app/src/hooks/useInitialState.js'
 import NotFound from '../pages/NotFound';
+import Others from '../pages/Others';
+import Clothes from '../pages/Clothes';
+import Electronics from '../pages/Electronics';
+import Furnitures from '../pages/Furnitures';
+import Toys from '../pages/Toys';
 
 
 function App() {
 	const initialState = useInitialState();
   return (
-	<AppContext.Provider value={initialState}>
+	<UserProvider>
+	<AppContext.Provider value={initialState} >
     	<BrowserRouter>
 			<Layout>
 				<Routes>
 					<Route exact path="/" element={<Home/>} />
+					<Route exact path="/others" element={<Others/>} />
+					<Route exact path="/Clothes" element={<Clothes/>} />
+					<Route exact path="/Electronics" element={<Electronics/>} />
+					<Route exact path="/Furnitures" element={<Furnitures/>} />
+					<Route exact path="/Toys" element={<Toys/>} />
 					<Route exact path="/login" element={<Login/>} />
 					<Route exact path="/password-recovery" element={<PasswordRecovery/>} />
 					<Route exact path="/send-email" element={<SendEmail/>} />
@@ -36,6 +48,7 @@ function App() {
 			</Layout>
 		</BrowserRouter>
 	</AppContext.Provider>
+	</UserProvider>
   );
 }
 

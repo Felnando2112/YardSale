@@ -1,0 +1,39 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+.SearchBar-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	height: 50px;
+	width: 300px;
+	position: absolute;
+	left: 12px;
+	top:60px;
+}
+.SearchBar{
+	border-style: none;
+	border-bottom: 1px solid var(--very-light-pink);
+	height: 30px;
+	outline: none;
+}
+.SearchBar-button{
+	background-color: var(--hospital-green);
+	border-radius: 8px;
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+	font-size: var(--sm);
+	font-weight: bold;
+	width: 195px;
+	height: 30px;
+}
+
