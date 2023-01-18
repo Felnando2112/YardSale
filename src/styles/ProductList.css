@@ -16,6 +16,34 @@
 	place-content: center;
 	margin: 3em 0 0 0;
 }
+.SearchBar-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	height: 50px;
+	width: 300px;
+	position: absolute;
+	left: 12px;
+	top:60px;
+}
+.SearchBar{
+	border-style: none;
+	border-bottom: 1px solid var(--very-light-pink);
+	height: 30px;
+	outline: none;
+}
+.SearchBar-button{
+	background-color: var(--hospital-green);
+	border-radius: 8px;
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+	font-size: var(--sm);
+	font-weight: bold;
+	width: 195px;
+	height: 30px;
+}
 
 @media (max-width: 640px) {
 	.ProductList {
