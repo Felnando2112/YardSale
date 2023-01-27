@@ -14,16 +14,18 @@ export function useUserToggle(){
 
 export function UserProvider(props){
 
-    const [user,setUser] = useState(null);
+    const [user,setUser] = useState({
+        email: null,
+        password: null
+    });
 
-    const cambiaLogin = () => {
+    const cambiaLogin = (mail,passwor) => {
         if(user){
             setUser(null);
-        }else{
-            setUser({
-            email: 'fernandoavenda2112@gmail.com' ,
-            password: '12345678'
-            })
+        }else if(mail === ''){
+            setUser({...user, password: passwor})
+        }else {
+            setUser({...user,email: mail, password: passwor})
         }
     }
 

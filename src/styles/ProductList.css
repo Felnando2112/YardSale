@@ -49,4 +49,7 @@
 	.ProductList {
 		grid-template-columns: repeat(auto-fill, 140px);
 	}
+	.SearchBar-div{
+		left: 4.5em;
+	}
 }
