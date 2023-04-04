@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/MyAccount.css';
-import { useUserContext, useUserToggle } from '../context/userProvider';
+import { useUserContext} from '../context/userProvider';
 
 const MyAccount = () => {
 	const user = useUserContext();
