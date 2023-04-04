@@ -1,7 +1,7 @@
 import React,{useContext} from 'react';
 import AppContext from '../context/AppContext';
-import Order from '/home/fernando/Desktop/React/my-react-app/src/components/Order.jsx';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/Order.css';
+import Order from '../components/Order.jsx';
+import '../styles/Order.css';
 
 const Orders = () => {
 	const {state} = useContext(AppContext);

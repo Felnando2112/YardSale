@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/Categories.css';
+import '../styles/Categories.css';
 
 const Categories = () => {
 	return (

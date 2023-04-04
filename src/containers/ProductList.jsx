@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/ProductList.css';
-import ProductItem from '/home/fernando/Desktop/React/my-react-app/src/components/ProductItem.jsx';
+import '../styles/ProductList.css';
+import ProductItem from '../components/ProductItem.jsx';
 import axios from 'axios';
 
 const API = 'https://fakestoreapi.com/products';

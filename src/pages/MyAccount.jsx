@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/MyAccount.css';
+import '../styles/MyAccount.css';
 import { useUserContext, useUserToggle } from '../context/userProvider';
 
 const MyAccount = () => {

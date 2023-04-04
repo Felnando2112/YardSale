@@ -1,11 +1,11 @@
 import React,{useState,useContext} from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/Header.css';
+import '../styles/Header.css';
 import Categories from './Categories';
-import menu from '/home/fernando/Desktop/React/my-react-app/src/assets/icons/icon_menu.svg';
-import logo from '/home/fernando/Desktop/React/my-react-app/src/assets/logos/logo_yard_sale.svg';
-import AppContext from '/home/fernando/Desktop/React/my-react-app/src/context/AppContext.js';
-import shoppingCart from '/home/fernando/Desktop/React/my-react-app/src/assets/icons/icon_shopping_cart.svg';
-import MyOrder from '/home/fernando/Desktop/React/my-react-app/src/containers/MyOrder.jsx';
+import menu from '../assets/icons/icon_menu.svg';
+import logo from '../assets/logos/logo_yard_sale.svg';
+import AppContext from '../context/AppContext.js';
+import shoppingCart from '../assets/icons/icon_shopping_cart.svg';
+import MyOrder from '../containers/MyOrder.jsx';
 
 const Header = () => {
 	const [ToggleCat, setToggleCat] = useState(false);

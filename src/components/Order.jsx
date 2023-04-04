@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import AppContext from '../context/AppContext';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/Order.css';
+import '../styles/Order.css';
 
 const Order = () => {
 	const {state} = useContext(AppContext);

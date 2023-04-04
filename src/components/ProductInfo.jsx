@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/ProductInfo.css';
+import '../styles/ProductInfo.css';
 
 const ProductInfo = () => {
 	return (
@@ -10,7 +10,7 @@ const ProductInfo = () => {
 				<p>Bike</p>
 				<p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
 				<button className="primary-button add-to-cart-button">
-					<img src="/home/fernando/Desktop/React/my-react-app/src/assets/icons/bt_added_to_cart.svg" alt="add to cart" />
+					<img src="../assets/icons/bt_added_to_cart.svg" alt="add to cart" />
 					Add to cart
 				</button>
 			</div>

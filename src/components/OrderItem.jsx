@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import AppContext from '../context/AppContext';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/OrderItem.css';
+import '../styles/OrderItem.css';
 
 const OrderItem = ({product}) => {
 	const { removeFromCart } = useContext(AppContext);

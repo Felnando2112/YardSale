@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/PasswordRecovery.css';
+import '../styles/PasswordRecovery.css';
 
 const PasswordRecovery = () => {
 	return (

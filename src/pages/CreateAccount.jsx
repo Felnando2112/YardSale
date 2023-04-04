@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { useUserContext, useUserToggle } from '../context/userProvider';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/CreateAccount.css';
+import '../styles/CreateAccount.css';
 
 const CreateAccount = () => {
 	const [email,setEmail] = useState('');

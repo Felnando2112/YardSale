@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/NewPassword.css';
+import '../styles/NewPassword.css';
 import { useUserContext, useUserToggle } from '../context/userProvider';
 
 const NewPassword = () => {

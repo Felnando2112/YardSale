@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '/home/fernando/Desktop/React/my-react-app/src/components/Header.jsx';
+import Header from '../components/Header.jsx';
 
 const Layout = ({ children }) => {
 	return (

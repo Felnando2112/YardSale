@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import OrderItem from '../components/OrderItem';
 import AppContext from '../context/AppContext';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/Checkout.css';
+import '../styles/Checkout.css';
 
 const Checkout = () => {
 	const {state} = useContext(AppContext);

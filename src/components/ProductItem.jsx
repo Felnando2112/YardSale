@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/ProductItem.css';
-import AppContext from '/home/fernando/Desktop/React/my-react-app/src/context/AppContext.js';
-import cart from '/home/fernando/Desktop/React/my-react-app/src/assets/icons/cart.svg';
+import '../styles/ProductItem.css';
+import AppContext from '../context/AppContext.js';
+import cart from '../assets/icons/cart.svg';
 
 
 const ProductItem = ({product}) => {

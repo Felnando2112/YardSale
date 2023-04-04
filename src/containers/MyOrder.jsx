@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
-import OrderItem from '/home/fernando/Desktop/React/my-react-app/src/components/OrderItem.jsx';
+import OrderItem from '../components/OrderItem.jsx';
 import AppContext from '../context/AppContext';
-import '/home/fernando/Desktop/React/my-react-app/src/styles/MyOrder.css';
+import '../styles/MyOrder.css';
 
 
 const MyOrder = () => {
