@@ -1,4 +1,4 @@
-import '/home/fernando/Desktop/React/my-react-app/src/styles/App.css';
+import '../styles/App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import Home from '../pages/Home';
@@ -8,11 +8,11 @@ import SendEmail from '../pages/SendEmail';
 import NewPassword from '../pages/NewPassword';
 import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
-import Checkout from '/home/fernando/Desktop/React/my-react-app/src/pages/Checkout.jsx';
+import Checkout from '../pages/Checkout.jsx';
 import Orders from '../pages/Orders';
 import { UserProvider } from '../context/userProvider';
 import AppContext from '../context/AppContext';
-import useInitialState from '/home/fernando/Desktop/React/my-react-app/src/hooks/useInitialState.js'
+import useInitialState from '../hooks/useInitialState.js'
 import NotFound from '../pages/NotFound';
 import Others from '../pages/Others';
 import Clothes from '../pages/Clothes';
