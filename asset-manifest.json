@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c78b158.css",
-    "main.js": "/static/js/main.76b3320d.js",
-    "static/js/651.87b23707.chunk.js": "/static/js/651.87b23707.chunk.js",
-    "static/media/logo_yard_sale.svg": "/static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
-    "static/media/cart.svg": "/static/media/cart.c13587f7a917cacfc4722859eba06bca.svg",
-    "static/media/icon_shopping_cart.svg": "/static/media/icon_shopping_cart.6ee019074975f25fb7927a83133327c4.svg",
-    "index.html": "/index.html",
-    "static/media/icon_menu.svg": "/static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
-    "main.8c78b158.css.map": "/static/css/main.8c78b158.css.map",
-    "main.76b3320d.js.map": "/static/js/main.76b3320d.js.map",
-    "651.87b23707.chunk.js.map": "/static/js/651.87b23707.chunk.js.map"
+    "main.css": "/YardSale/static/css/main.8c78b158.css",
+    "main.js": "/YardSale/static/js/main.ef42d54e.js",
+    "static/js/651.87b23707.chunk.js": "/YardSale/static/js/651.87b23707.chunk.js",
+    "static/media/logo_yard_sale.svg": "/YardSale/static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
+    "static/media/cart.svg": "/YardSale/static/media/cart.c13587f7a917cacfc4722859eba06bca.svg",
+    "static/media/icon_shopping_cart.svg": "/YardSale/static/media/icon_shopping_cart.6ee019074975f25fb7927a83133327c4.svg",
+    "index.html": "/YardSale/index.html",
+    "static/media/icon_menu.svg": "/YardSale/static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
+    "main.8c78b158.css.map": "/YardSale/static/css/main.8c78b158.css.map",
+    "main.ef42d54e.js.map": "/YardSale/static/js/main.ef42d54e.js.map",
+    "651.87b23707.chunk.js.map": "/YardSale/static/js/651.87b23707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c78b158.css",
-    "static/js/main.76b3320d.js"
+    "static/js/main.ef42d54e.js"
   ]
 }
