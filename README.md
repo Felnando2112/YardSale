@@ -5,4 +5,5 @@ e-commerce prototype to test functionalities such as shopping cart, categories, 
 - React js
 - axios
 - Babel
-## 
+## Preview
+<https://yardsalefernando.netlify.app/>
